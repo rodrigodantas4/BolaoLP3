@@ -6,5 +6,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_cadastro">Cadastro</string>
     <string name="title_activity_menu_inicial">MenuInicial</string>
+    <string name="title_activity_times">Times</string>
+    <string name="title_activity_tabela">Tabela</string>
+    <string name="title_activity_ajuda">Ajuda</string>
 
 </resources>

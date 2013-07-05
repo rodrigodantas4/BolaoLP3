@@ -30,6 +30,18 @@
             android:name="com.example.bolaolp3.MenuInicial"
             android:label="@string/title_activity_menu_inicial" >
         </activity>
+        <activity
+            android:name="com.example.bolaolp3.Times"
+            android:label="@string/title_activity_times" >
+        </activity>
+        <activity
+            android:name="com.example.bolaolp3.Tabela"
+            android:label="@string/title_activity_tabela" >
+        </activity>
+        <activity
+            android:name="com.example.bolaolp3.Ajuda"
+            android:label="@string/title_activity_ajuda" >
+        </activity>
     </application>
 
 </manifest>
