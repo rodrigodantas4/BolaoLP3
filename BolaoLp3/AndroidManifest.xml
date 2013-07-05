@@ -26,6 +26,10 @@
             android:name="com.example.bolaolp3.Cadastro"
             android:label="@string/title_activity_cadastro" >
         </activity>
+        <activity
+            android:name="com.example.bolaolp3.MenuInicial"
+            android:label="@string/title_activity_menu_inicial" >
+        </activity>
     </application>
 
 </manifest>
