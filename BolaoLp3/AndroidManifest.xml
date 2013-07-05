@@ -42,6 +42,10 @@
             android:name="com.example.bolaolp3.Ajuda"
             android:label="@string/title_activity_ajuda" >
         </activity>
+        <activity
+            android:name="com.example.bolaolp3.Jogos"
+            android:label="@string/title_activity_jogos">
+        </activity>
     </application>
 
 </manifest>

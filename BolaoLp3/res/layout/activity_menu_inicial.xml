@@ -94,7 +94,8 @@
 	        android:layout_height="120px"
 			android:layout_width="120px" 
 			android:layout_column="2"
-			android:layout_marginRight="80px"/>
+			android:layout_marginRight="80px"
+			android:onClick="entrarJogos"/>
 	    
 	 </TableRow>
 	 
@@ -119,7 +120,8 @@
 	        android:textAppearance="?android:attr/textAppearanceLarge" 
 	        android:layout_column="2"
 	        android:layout_marginRight="80px"
-	        android:layout_marginBottom="30px"/>
+	        android:layout_marginBottom="30px"
+	        />
 	    
 	 </TableRow>
 	 

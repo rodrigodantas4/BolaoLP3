@@ -33,7 +33,9 @@ public class MenuInicial extends Activity {
     	startActivity(new Intent(this, Ajuda.class));      
     	}
     
-    
+	public void entrarJogos( View button){
+    	startActivity(new Intent(this, Jogos.class));
+    	}
 	
 
 }
