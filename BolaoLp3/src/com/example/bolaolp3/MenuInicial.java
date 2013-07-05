@@ -22,7 +22,18 @@ public class MenuInicial extends Activity {
 	}
 	
 	public void entrarTabela( View button){
-    	startActivity(new Intent(this, Tabela.class));      }
+    	startActivity(new Intent(this, Tabela.class));
+    	}
+	
+	public void entrarTimes( View button){
+    	startActivity(new Intent(this, Times.class));      
+    	}
+	
+	public void entrarAjuda( View button){
+    	startActivity(new Intent(this, Ajuda.class));      
+    	}
+    
+    
 	
 
 }

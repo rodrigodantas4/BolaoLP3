@@ -7,10 +7,83 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Times" >
+    
+    <Button
+        android:id="@+id/espanha"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:background="@drawable/espanha" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <Button
+        android:id="@+id/argentina"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignBaseline="@+id/brasil"
+        android:layout_alignBottom="@+id/brasil"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/argentina" />
+    
+    <Button
+        android:id="@+id/brasil"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignBaseline="@+id/espanha"
+        android:layout_alignBottom="@+id/espanha"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/brasil" />
 
+    <Button
+        android:id="@+id/franca"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/espanha"
+        android:layout_below="@+id/espanha"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/franca" />
+    
+    <Button
+        android:id="@+id/mexico"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/brasil"
+        android:layout_below="@+id/brasil"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/mexico" />
+    
+     <Button
+        android:id="@+id/japao"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/argentina"
+        android:layout_below="@+id/argentina"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/japan" />
+     
+     <Button
+        android:id="@+id/alemanha"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/espanha"
+        android:layout_below="@+id/franca"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/alemanha" />
+     
+     <Button
+        android:id="@+id/irlanda"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/brasil"
+        android:layout_below="@+id/mexico"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/irlanda" />
+     
+     <Button
+        android:id="@+id/suecia"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/argentina"
+        android:layout_below="@+id/japao"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/suecia" />
+    
 </RelativeLayout>
