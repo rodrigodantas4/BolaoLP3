@@ -66,14 +66,15 @@
     	    android:id="@+id/button1"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:onClick="mostrarTexto"
+	        android:onClick="entrarMenu"
 	        android:text="Entrar" />
     	    
 	    <Button
 	        android:id="@+id/button2"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:text="Criar Conta" />
+     	    android:onClick="entrarCadastro"
+     	    android:text="Criar Conta" />
 	    
 	</LinearLayout>
 

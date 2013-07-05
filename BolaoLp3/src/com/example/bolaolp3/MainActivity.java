@@ -27,8 +27,11 @@ public class MainActivity extends Activity {
     }
    
     
-    public void mostrarTexto( View button){
+    public void entrarCadastro( View button){
     	startActivity(new Intent(this, Cadastro.class));      }
+    
+    public void entrarMenu( View button){
+    	startActivity(new Intent(this, MenuInicial.class));      }
     
     
     
