@@ -37,7 +37,8 @@
              android:layout_width="120px"
              android:layout_height="120px"
              android:background="@drawable/bola" 
-             android:layout_marginLeft="80px"/>
+             android:layout_marginLeft="80px"
+             android:onClick="entrarBolao"/>
 	    
 	    <Button
 	        android:id="@+id/settings"
@@ -60,7 +61,7 @@
 	        android:id="@+id/textView2"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:text="Nome"
+	        android:text="Bolões"
 	        android:textAppearance="?android:attr/textAppearanceLarge" 
 	        android:layout_marginLeft="80px"/>
         

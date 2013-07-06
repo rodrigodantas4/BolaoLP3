@@ -46,6 +46,18 @@
             android:name="com.example.bolaolp3.Jogos"
             android:label="@string/title_activity_jogos">
         </activity>
+        <activity
+            android:name="com.example.bolaolp3.Boloes"
+            android:label="@string/title_activity_boloes" >
+        </activity>
+        <activity
+            android:name="com.example.bolaolp3.NovoBolao"
+            android:label="@string/title_activity_novo_bolao" >
+        </activity>
+        <activity
+            android:name="com.example.bolaolp3.Pontuacao"
+            android:label="@string/title_activity_pontuacao" >
+        </activity>
     </application>
 
 </manifest>

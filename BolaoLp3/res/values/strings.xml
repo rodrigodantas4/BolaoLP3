@@ -10,5 +10,15 @@
     <string name="title_activity_tabela">Tabela</string>
     <string name="title_activity_ajuda">Ajuda</string>
     <string name="title_activity_jogos">Jogos</string>
+    <string name="nome_bolao1">UFPB</string>
+    <string name="nome_bolao2">Brasil</string>
+    <string name="nome_bolao3">LP3</string>
+    <string name="title_activity_pontuacao">Pontuacao</string>
+    <string name="jogador1">1.Ramon:</string>
+    <string name="jogador2">2.Rodrigo:</string>
+    <string name="jogador3">3.Eduardo:</string>
+    <string name="jogador4">4.Noob:</string>
+    <string name="title_activity_boloes">Boloes</string>
+    <string name="title_activity_novo_bolao">NovoBolao</string>
 
 </resources>

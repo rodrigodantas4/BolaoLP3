@@ -37,5 +37,9 @@ public class MenuInicial extends Activity {
     	startActivity(new Intent(this, Jogos.class));
     	}
 	
+	public void entrarBolao(View button){
+		startActivity(new Intent(this, Boloes.class));
+	}
+	
 
 }
