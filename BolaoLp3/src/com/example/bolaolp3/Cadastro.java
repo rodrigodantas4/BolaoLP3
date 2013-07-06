@@ -2,7 +2,9 @@ package com.example.bolaolp3;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class Cadastro extends Activity {
 
@@ -18,5 +20,9 @@ public class Cadastro extends Activity {
 		getMenuInflater().inflate(R.menu.cadastro, menu);
 		return true;
 	}
+	
+	public void entrarMenu( View button){
+    	startActivity(new Intent(this, MenuInicial.class));      }
+    
 
 }
