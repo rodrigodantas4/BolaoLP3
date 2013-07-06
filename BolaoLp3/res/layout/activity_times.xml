@@ -12,7 +12,8 @@
         android:id="@+id/espanha"
         android:layout_width="100px"
         android:layout_height="100px"
-        android:background="@drawable/espanha" />
+        android:background="@drawable/espanha" 
+        android:onClick="entrarDetalhes"/>
 
     <Button
         android:id="@+id/argentina"

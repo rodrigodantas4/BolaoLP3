@@ -20,5 +20,6 @@
     <string name="jogador4">4.Noob:</string>
     <string name="title_activity_boloes">Boloes</string>
     <string name="title_activity_novo_bolao">NovoBolao</string>
+    <string name="title_activity_detalhes_times">DetalhesTimes</string>
 
 </resources>
